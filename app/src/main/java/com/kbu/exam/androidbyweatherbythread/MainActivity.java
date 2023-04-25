@@ -62,10 +62,10 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if (b) {
                     trigger = b;
-                    glideText.setText("자체 통신 방법");
+                    glideText.setText("Glide 사용");
                 } else {
                     trigger = b;
-                    glideText.setText("Glide 사용");
+                    glideText.setText("자체 통신 방법");
                 }
             }
         });
